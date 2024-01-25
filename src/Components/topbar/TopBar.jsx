@@ -13,18 +13,20 @@ export default function TopBar() {
           </span>
         </div>
         <div className="topRight">
+        <img className="topbarAvatar" src="image/img-1.jfif" alt="" />
+          
           <div className="topbarIconContainer">
-            <NotificationsNoneIcon />
-            <span className="topIconBadge">2</span>
+            <SettingsIcon />
           </div>
           <div className="topbarIconContainer">
             <LanguageIcon />
             <span className="topIconBadge">2</span>
           </div>
           <div className="topbarIconContainer">
-            <SettingsIcon />
+            <NotificationsNoneIcon />
+            <span className="topIconBadge">2</span>
           </div>
-          <img className="topbarAvatar" src="image/img-1.jfif" alt="" />
+        
         </div>
       </div>
     </div>

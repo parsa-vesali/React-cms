@@ -12,7 +12,17 @@ body {
     font-family: 'Dana';
     font-size: 1.6rem;
     line-height: 1.6;
+    direction: rtl;
 }
 html {
     font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    margin-top: 1rem;
+}
+.link {
+    text-decoration: none;
+    color: inherit;
 }
