@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Dana';
+    src: url(../public/Fonts/Dana/woff2/DanaFaNum-Medium.woff2);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dana';
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+html {
+    font-size: 62.5%;
+}
