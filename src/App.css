@@ -25,6 +25,7 @@ ul {
 button {
     border: none;
     outline: none;
+    font-family: 'Dana';
 }
 
 .container {
