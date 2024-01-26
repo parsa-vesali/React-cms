@@ -11,8 +11,8 @@ export default function Home() {
       <Feature />
       <Chart grid title="فروش ماهانه" data={xAxisData} dataKey="sale" />
       <div className="homeWidgest">
-        <WidgetSm />
         <WidgetLg />
+        <WidgetSm />
       </div>
     </div>
   )

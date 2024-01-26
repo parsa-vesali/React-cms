@@ -81,7 +81,7 @@ const newMembers = [
 const  transactions = [
     {
         id : 1 ,
-        customer : 'رضا محمدی' ,
+        customer : 'رضا ' ,
         img : 'image/user-5.jpg' ,
         date : '12 jun 2023',
         amount : 194 ,
@@ -90,7 +90,7 @@ const  transactions = [
     },
     {
         id : 2 ,
-        customer : 'محسن مرادی' ,
+        customer : 'محسن ' ,
         img : 'image/user-6.jpg' ,
         date : '18 May 2023',
         amount : 739 ,
@@ -127,4 +127,58 @@ const  transactions = [
 ]
 
 
-export {xAxisData , newMembers , transactions}
+let userRows = [
+    {
+        id : 1 ,
+        userName : 'امیر' ,
+        avatar : 'image/user-1.jpg' ,
+        status : 'active',
+        transaction : 218.52,
+        email : 'Email@email.com'
+    },
+    {
+        id : 2 ,
+        userName : 'پارسا' ,
+        avatar : 'image/user-2.jpg' ,
+        status : 'active',
+        transaction : 218.52,
+        email : 'Email@email.com'
+    },
+    {
+        id : 3 ,
+        userName : 'سارا' ,
+        avatar : 'image/user-3.jpg' ,
+        status : 'active',
+        transaction : 218.52,
+        email : 'Email@email.com'
+    },
+    {
+        id : 4 ,
+        userName : 'حسین' ,
+        avatar : 'image/user-4.jpg' ,
+        status : 'active',
+        transaction : 218.52,
+        email : 'Email@email.com'
+    },
+    {
+        id : 5 ,
+        userName : 'محمد' ,
+        avatar : 'image/user-5.jpg' ,
+        status : 'active',
+        transaction : 218.52,
+        email : 'Email@email.com'
+    },
+    {
+        id : 6 ,
+        userName : 'علی' ,
+        avatar : 'image/user-6.jpg' ,
+        status : 'active',
+        transaction : 218.52,
+        email : 'Email@email.com'
+    },
+]
+
+
+
+
+export {xAxisData , newMembers , transactions, userRows}
