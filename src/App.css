@@ -18,6 +18,15 @@ html {
     font-size: 62.5%;
 }
 
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
 .container {
     display: flex;
     margin-top: 2rem;
