@@ -28,10 +28,12 @@ export default function SideBar() {
                 صفحه اصلی
               </li>
             </Link>
-            <li className="sidebarListItem">
-              <TimelineIcon className="sidebarIcon" />
-              تجزیه و تحلیل
-            </li>
+            <Link to="/analysis" className="link">
+              <li className="sidebarListItem">
+                <TimelineIcon className="sidebarIcon" />
+                تجزیه و تحلیل
+              </li>
+            </Link>
             <li className="sidebarListItem">
               <TrendingUpIcon className="sidebarIcon" />
               فروش
@@ -92,10 +94,6 @@ export default function SideBar() {
             <li className="sidebarListItem">
               <WorkOutlineIcon className="sidebarIcon" />
               مدیریت
-            </li>
-            <li className="sidebarListItem">
-              <TimelineIcon className="sidebarIcon" />
-              تجزیه و تحلیل
             </li>
             <li className="sidebarListItem">
               <ReportIcon className="sidebarIcon" />

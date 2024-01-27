@@ -12,6 +12,16 @@
     cursor: pointer;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     margin-bottom: 4rem;
+    color: #fff;
+}
+.featureItem:nth-child(1) {
+    background-color: #33BFFF;
+}
+.featureItem:nth-child(2) {
+    background-color: #1A2233;
+}
+.featureItem:nth-child(3) {
+    background-color: #FF6633;
 }
 .featureTitle{
     font-size: 2rem;
@@ -46,5 +56,5 @@
 }
 .fatureSub{
     font-size: 1.5rem;
-    color: gray;
+    color: #f2f2f2;
 }
