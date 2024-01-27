@@ -19,4 +19,4 @@ My first project with React JS
 
 ## 💻 preview :
 
-![shopping link](https://github.com/parsa-vesali/shopping/blob/main/site-1.PNG)
+[![shopping link](https://github.com/parsa-vesali/shopping/blob/main/site-1.PNG)](https://github.com/parsa-vesali/React-cms/blob/main/panel.png?raw=true)https://github.com/parsa-vesali/React-cms/blob/main/panel.png?raw=true
