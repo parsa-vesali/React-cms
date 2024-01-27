@@ -1,0 +1,145 @@
+.chart{
+    margin: 0 !important;
+    padding: 2.2rem ;
+}
+
+.product {
+    flex: 4;
+    padding: 0 2rem;
+}
+
+.productTitleContainer {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.productTitle {}
+
+.productBtn {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: #fff;
+    background-color: #37cdff;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+}
+
+.productTop {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.productTopLeft {
+    flex: 1;
+}
+
+.productTopRight {
+    flex: 1;
+    padding: 2rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 1rem;
+    margin-right: 2rem;
+}
+
+.productInfoTop {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.productInfoImg {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.productName {
+    font-weight: 600;
+}
+
+.productInfoBottom {
+    margin-top: 2rem;
+}
+
+.productInfoItem {
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productInfoKey {
+    font-weight: 600;
+}
+
+.productInfoValue {
+    font-weight: 300;
+    color: #414141;
+}
+
+
+.productBottom {
+    margin-top: 2rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.productForm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productFormLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.productFormLeft label {
+    margin-bottom: 1rem;
+    color: gray;
+}
+
+.productFormLeft>input {
+    margin-bottom: 1rem;
+    border: none;
+    padding: 0.5rem;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+
+.productFormLeft>select {
+    margin-bottom: 1rem;
+}
+
+.productFormRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.productUploader {
+    display: flex;
+    align-items: center;
+}
+
+.productUploaderImg {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+.productUploaderBtn {
+    display: none;
+}
+
+.productUploaderEdit {
+    padding: 0.5rem;
+    border-radius: .5rem;
+    background-color: #37cdff;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}

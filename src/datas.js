@@ -178,7 +178,57 @@ let userRows = [
     },
 ]
 
+const products = [
+    {
+        id : 1 ,
+        title : 'apple' ,
+        img : 'image/category-1.png' ,
+        price : '$340'
+    },
+    {
+        id : 2 ,
+        title : 'asus' ,
+        img : 'image/category-2.png' ,
+        price : '$803'
+    },
+    {
+        id : 3 ,
+        title : 'mobile' ,
+        img : 'image/category-3.png' ,
+        price : '$910'
+    },
+    {
+        id : 4 ,
+        title : 'laptop' ,
+        img : 'image/category-4.png' ,
+        price :' $229'
+    },
+    {
+        id : 5 ,
+        title : 'apple' ,
+        img : 'image/category-5.png' ,
+        price :' $122'
+    },
+]
+
+const productDatas = [
+    {
+        name : 'Jun' ,
+        Sale : 600 ,
+    },
+    {
+        name : 'Feb' ,
+        Sale : 1200 ,
+    },
+    {
+        name : 'Mar' ,
+        Sale : 1900 ,
+    },
+    {
+        name : 'July' ,
+        Sale : 2100 ,
+    },
+]
 
 
-
-export {xAxisData , newMembers , transactions, userRows}
+export {xAxisData , newMembers , transactions, userRows , products , productDatas}
