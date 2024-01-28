@@ -1,11 +1,15 @@
-import React from 'react'
-import { Link } from "react-router-dom";
+import React   from 'react'
+import { Link , useParams } from "react-router-dom";
 import { productDatas } from "../../datas";
+import { products } from '../../datas';
 import Chart from '../../Components/chart/Chart';
 import PublishIcon from '@mui/icons-material/Publish';
 import './Product.css'
 
 export default function Product() {
+    let params = useParams()
+    let mainProductData = products.find(product => product.id ==  params.ProductID )
+
   return (
     <div className='product'>
 
@@ -24,25 +28,25 @@ export default function Product() {
             </div>
             <div className="productTopRight">
                 <div className="productInfoTop">
-                    <img src="/image/category-1.png" alt="laptop" className='productInfoImg' />
-                    <span className='productName'>لپ تاپ دل</span>
+                    <img src={`/${mainProductData.img}`} alt="laptop" className='productInfoImg' />
+                    <span className='productName'> {mainProductData.title} </span>
                 </div>
                 <div className="productInfoBottom">
                     <div className="productInfoItem">
                         <div className="productInfoKey">شماره محصول :</div>
-                        <div className="productInfoValue">132</div>
+                        <div className="productInfoValue">{mainProductData.id}</div>
                     </div>
                     <div className="productInfoItem">
                         <div className="productInfoKey">محصول :</div>
-                        <div className="productInfoValue">132</div>
+                        <div className="productInfoValue">{mainProductData.title}</div>
                     </div>
                     <div className="productInfoItem">
                         <div className="productInfoKey">موجودی :</div>
-                        <div className="productInfoValue">132</div>
+                        <div className="productInfoValue">{mainProductData.count}</div>
                     </div>
                     <div className="productInfoItem">
-                        <div className="productInfoKey">فروش ماهانه :</div>
-                        <div className="productInfoValue">$132</div>
+                        <div className="productInfoKey"> قیمت :</div>
+                        <div className="productInfoValue">{mainProductData.price}</div>
                     </div>
                     <div className="productInfoItem">
                         <div className="productInfoKey">رضایت مشتری : </div>
@@ -59,7 +63,7 @@ export default function Product() {
                     <label>
                         نام محصول
                     </label>
-                    <input type="text" placeholder='لپ تاپ دل'/>
+                    <input type="text" placeholder={mainProductData.title}/>
 
                     <label>موجودی</label>
                     <select className='inStock'>
@@ -76,7 +80,7 @@ export default function Product() {
 
                 <div className="productFormRight">
                     <div className="productUploader">
-                        <img src="/image/category-1.png" alt="product" className='productUploaderImg' />
+                        <img src={`/${mainProductData.img}`} alt="product" className='productUploaderImg' />
                         <label>
                             <PublishIcon />
                         </label>

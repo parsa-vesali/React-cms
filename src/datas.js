@@ -183,31 +183,36 @@ const products = [
         id : 1 ,
         title : 'apple' ,
         img : 'image/category-1.png' ,
-        price : '$340'
+        price : '$340',
+        count : 343
     },
     {
         id : 2 ,
         title : 'asus' ,
         img : 'image/category-2.png' ,
-        price : '$803'
+        price : '$803',
+        count : 5323
     },
     {
         id : 3 ,
         title : 'mobile' ,
         img : 'image/category-3.png' ,
-        price : '$910'
+        price : '$910',
+        count : 5233
     },
     {
         id : 4 ,
         title : 'laptop' ,
         img : 'image/category-4.png' ,
-        price :' $229'
+        price :' $229',
+        count : 930
     },
     {
         id : 5 ,
         title : 'apple' ,
         img : 'image/category-5.png' ,
-        price :' $122'
+        price :' $122',
+        count : 374
     },
 ]
 
@@ -230,5 +235,20 @@ const productDatas = [
     },
 ]
 
+const datasChrt = [
+    { month: "Jan", laptop: 40, mobile: 20, tablet: 45 },
+    { month: "Feb", laptop: 30, mobile: 12, tablet: 50 },
+    { month: "Mar", laptop: 23, mobile: 15, tablet: 33 },
+    { month: "Apr", laptop: 39, mobile: 20, tablet: 35 },
+    { month: "May", laptop: 45, mobile: 32, tablet: 39 },
+    { month: "Jul", laptop: 51, mobile: 44, tablet: 40 },
+    { month: "July", laptop: 54, mobile: 45, tablet: 20 },
+    { month: "Agu", laptop: 66, mobile: 49, tablet: 19 },
+    { month: "Sep", laptop: 75, mobile: 50, tablet: 15 },
+    { month: "Otc", laptop: 80, mobile: 53, tablet: 30 },
+    { month: "Nov", laptop: 85, mobile: 59, tablet: 49 },
+    { month: "Dev", laptop: 90, mobile: 60, tablet: 50 },
+  ];
 
-export {xAxisData , newMembers , transactions, userRows , products , productDatas}
+
+export {xAxisData , newMembers , transactions, userRows , products , productDatas , datasChrt}

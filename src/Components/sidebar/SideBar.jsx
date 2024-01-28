@@ -34,10 +34,12 @@ export default function SideBar() {
                 تجزیه و تحلیل
               </li>
             </Link>
-            <li className="sidebarListItem">
-              <TrendingUpIcon className="sidebarIcon" />
-              فروش
-            </li>
+            <Link to="./sale" className="link">
+              <li className="sidebarListItem">
+                <TrendingUpIcon className="sidebarIcon" />
+                فروش
+              </li>
+            </Link>
           </ul>
         </div>
         <div className="sidebarMenu">
