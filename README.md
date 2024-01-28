@@ -19,5 +19,5 @@ My first project with React JS 👨‍🎓👨‍💻
 
 ## 💻 preview :
 
-![shopping link](https://github.com/parsa-vesali/React-cms/blob/main/panel.png?raw=true)
+![shopping link](https://github.com/parsa-vesali/React-cms/blob/main/panel-3.png)
 ![shopping link](https://github.com/parsa-vesali/React-cms/blob/main/panel-2.png)
